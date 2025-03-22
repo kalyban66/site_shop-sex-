@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    max-width: 90vw;
+    text-align: center;
+    padding-top: 10px;
+    transition: transform .5s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.breadcrumb-item {
+    padding: 8px 15px;
+    border: 1px solid rgb(178, 86, 0);
+    border-radius: 5px;
+    color: rgb(178, 86, 0);
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 1rem;
+}
+
+.breadcrumb-item:hover {
+    background-color: rgb(178, 86, 0);
+    color: white;
+}
+
+.breadcrumb-separator {
+    font-size: 1.2rem;
+    color: rgb(178, 86, 0);
+}
+
+.current {
+    padding: 8px 15px;
+    background-color: rgb(245, 245, 245);
+    color: rgb(178, 86, 0);
+    border-radius: 5px;
+}
+
+svg{
+    width: 30px;
+}
+
+.icon-cart{
+    position: relative;
+}
+
+.icon-cart span{
+    position: absolute;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    top: 50%;
+    right: -20px;
+}
+
+.title{
+    font-size: xx-large;
+}
+
+.listProduct .item img{
+    width: 90%;
+    filter: drop-shadow(10px 5px 30px #0009);
+}
+
+.listProduct{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.listProduct .item{
+    background-color: rgb(255, 234, 196);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.listProduct .item h2{
+    font-weight: 500;
+    font-size: large;
+}
+
+.listProduct .item .price{
+    letter-spacing: 7px;
+    font-size: small;
+}
+
+.listProduct .item button{
+    background-color: #353432;
+    color: #eee;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+/* cart */
+.cartTab{
+    width: 400px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    top: 0;
+    right: -400px;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: .5s;
+}
+
+body.showCart .cartTab{
+    right: 0;
+}
+
+body.showCart .container{
+    transform: translateX(-250px);
+}
+
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTab button{
+    background-color: #E8BC0E;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cartTab .close{
+    background-color: #eee;
+}
+
+.listCart .item img{
+    width: 100%;
+}
+
+.listCart .item{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.listCart .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    color: #555;
+    cursor: pointer;
+}
+
+.listCart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+    cursor: auto;
+}
+
+.listCart .item:nth-child(even){
+    background-color: #eee1;
+}
+
+.listCart{
+    overflow: auto;
+}
+
+.listCart::-webkit-scrollbar{
+    width: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .listProduct{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+    .listProduct{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Дуже малі екрани */
+@media only screen and (max-width: 480px) {
+    .listProduct {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ПОШУК ТОВАРУ*/
+#searchInput {
+    padding: 8px 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s;
+}
+
+#searchInput:focus {
+    border-color: #353432;
+}

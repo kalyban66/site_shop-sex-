@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+section header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+section header .logo{
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px 0;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Темна тінь */
+}
+
+section header .logo span{
+    color: #9e4202;
+}
+
+section header ul{
+    list-style: none; 
+}
+
+section header ul li{
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 5px 20px;
+}
+
+section header ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+section header ul li a:hover{
+    color: #9e4202;
+}
+
+section header p{
+    cursor: pointer;
+    padding: 10px 25px;
+    border: 1px solid rgb(178, 86, 0);
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+section header p:hover{
+    color: white;
+    background: rgb(178, 86, 0);
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 234, 196);
+    clip-path: circle(320px at left -230px);
+    z-index: -1;
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 234, 196);
+    clip-path: circle(250px at right 800px);
+    z-index: -1;
+}
+
+
+section .texts h1 {
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    font-size: 70px;
+    color: #9e4202;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Темна тінь */
+    -webkit-text-stroke: 1px #4a1d00; /* Обводка */
+}
+
+section .texts h1 span {
+    color: rgb(178, 86, 0);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Темна тінь для span */
+    -webkit-text-stroke: 1px #4a1d00; /* Обводка для span */
+}
+
+
+section .texts p{
+    width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    line-height: 27px;
+    text-align: justify;
+}
+
+section .background_image img{
+    width: 535px;
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    margin-left: 25px;
+}
+
+section .btn {
+    position: relative;
+    top: 77%;
+    left: 38px;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px; /* Додає простір між каруселлю та футером */
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+section .btn a{
+    padding: 10px 25px;
+    border: 1px solid rgb(178, 86, 0);
+    border-radius: 30px;
+    background: none;
+    color: rgb(178, 86, 0);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Ефект при наведенні для "Купити зараз" */
+section .btn a:not(.read):hover {
+    background: rgb(178, 86, 0);
+    color: white;
+}
+
+/* Кнопка "Читати більше" - початковий стан */
+section .btn .read {
+    background: rgb(178, 86, 0);
+    color: white;
+}
+
+/* Ефект при наведенні для "Читати більше" */
+section .btn .read:hover {
+    background: white;
+    color: rgb(178, 86, 0);
+}
+
+
+
+.product-selection {
+    text-align: center; /* Центрування тексту */
+    font-size: 70px; /* Розмір шрифту */
+    color: #9e4202; /* Колір тексту */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Темна тінь */
+    -webkit-text-stroke: 1px #4a1d00; /* Обводка */
+    margin-top: 20px; /* Відступ зверху */
+}
+
+.product-selection span{
+    color: rgb(178, 86, 0);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Темна тінь для span */
+    -webkit-text-stroke: 1px #4a1d00; /* Обводка для span */
+}
+
+
+
+.about {
+    width: 100%;
+    height: 240px;
+    padding: 50px;
+    margin-bottom: 250px; /* Додає простір між каруселлю та футером */
+    margin-top: -150px;
+}
+
+.about .box {
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .box .card {
+    width: 170px;
+    height: auto;
+    padding: 5px 10px;
+    margin: 0 5px;
+    background: rgb(255, 234, 196);
+    border: 1px solid rgb(255, 234, 196);
+    cursor: pointer;
+    z-index: 1;
+    transition: 0.3s;
+} 
+
+.about .box .card:hover {
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+.about .box .card img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+}
+
+.footer {
+    position: sticky;
+    top: 100vh; /* Дозволяє футеру залишатись внизу */
+    background: rgb(178, 86, 0);
+    padding: 50px 0; /* Зменшено загальний відступ */
+}
+
+.footer .main {
+    max-width: 1170px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0; /* Вимкнено відступи для списків */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_col {
+    width: 20%; /* Зменшено ширину стовпців для 5 стовпців */
+    padding: 0 10px; /* Відступи зменшено */
+}
+
+.footer_col h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 15px; /* Зменшено відступ */
+    font-weight: 500;
+    position: relative;
+}
+
+.footer_col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #250f00;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px; 
+}
+
+.footer_col ul li {
+    margin-bottom: 10px; /* Зменшено відступи для пунктів списку */
+    color: #ffffff;
+}
+
+.footer_col ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.footer_col .social img {
+    width: 30px;
+    margin: 5px;
+}
+
+.map-container {
+    margin-top: 10px; /* Зменшено відступ від списку */
+    overflow: hidden; /* Обрізаємо зайве */
+    border: 3px solid #250f00; /* Рамка */
+    border-radius: 10px; /* Закруглені кути */
+}
+
+.footer_col img {
+    width: 30px; /* або будь-який інший розмір */
+    vertical-align: middle; /* Центрування іконки по вертикалі */
+    margin-right: 5px; /* Відстань між іконкою і текстом */
+}
+
+
+
+/*_____________________ ПРО НАС СЕКЦІЯ_________________________________________________-- */
+.about-content {
+    padding: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(255, 234, 196);/* Світлий фон */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* М'яка тінь */
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.about-content h1 {
+    font-size: 2.5em;
+    color: #6d4c41; /* Коричневий колір заголовка */
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #6d4c41;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.about-content p::first-letter {
+    font-size: 1.5em;
+    color: #6d4c41; /* Перші літери в коричневому кольорі */
+    font-weight: bold;
+}
+
+.about-content p:last-child {
+    font-style: italic;
+    color: #6d4c41;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        padding: 20px;
+    }
+
+    .about-content h1 {
+        font-size: 2em;
+    }
+
+    .about-content p {
+        font-size: 1em;
+    }
+}
+
+
+/*__________________________________________________________________*/
+/* ____________________ЛОГО І НАПИС _____________________________---*/
+/*__________________________________________________________________*/
+.logo-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto; /* центрування контейнера */
+    padding: 20px;
+    width: 50%; /* обмеження ширини до половини екрану */
+    height: 35%;
+    background-color: rgb(255, 234, 196);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    margin-bottom: 20px; /* додатковий відступ знизу */
+}
+
+.logo-image {
+    width: 200px; /* Розмір логотипа */
+    margin-right: 20px;
+    border-radius: 50%; /* Для округлених країв логотипа */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Легке тіньове відображення для логотипа */
+}
+
+.logo-description {
+    max-width: 600px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1em;
+    color: #6d4c41;
+    line-height: 1.6;
+}
+
+.logo-description h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #6d4c41;
+}

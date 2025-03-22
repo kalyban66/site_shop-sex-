@@ -1,0 +1,241 @@
+[
+    {
+        "id": 1,
+        "name":"Декоративна PS рейка 12*290*1,1 см Sticker Wall, ціна за квадрат",
+        "price": 595,
+        "image": "image/paneli/decorativ_stikerwall.png"
+    },
+    {
+        "id": 2,
+        "name":"Настінні панелі 3Д Коричневий Бамбук 152*3000*12мм, ціна за квадрат",
+        "price": 560,
+        "image": "image/paneli/bambyk.png"
+    },
+    {
+        "id": 3,
+        "name":"Стінові рейки Бежеве дерево Ясен 160*3000*23мм, ціна за квадрат",
+        "price": 500,
+        "image": "image/paneli/yasen.png"
+    },
+    {
+        "id": 4,
+        "name":"Декоративні рейки для стін PS дуб Дерево 2900*120*12мм, ціна за квадрат",
+        "price": 430,
+        "image": "image/paneli/dyb.png"
+    },
+    {
+        "id": 5,
+        "name":"Стінові панелі рейки PS Світле дерево Бук 2900*120*12мм, ціна за квадрат",
+        "price": 495,
+        "image": "image/paneli/byk.png"
+    },
+    {
+        "id": 6,
+        "name":"Стінові рейки Бежеве дерево Ясен 160*3000*23мм, ціна за квадрат",
+        "price": 560,
+        "image": "image/paneli/sosna.png"
+    },
+    {
+        "id": 7,
+        "name":"Декоративна PS рейка 120*2900*11мм, ціна за квадрат",
+        "price": 495,
+        "image": "image/paneli/decorativ.png"
+    },
+    {
+        "id": 8,
+        "name":"Стінові панелі Каштан 160*3000*23мм, ціна за квадрат",
+        "price": 560,
+        "image": "image/paneli/kashtan.png"
+    },    {
+        "id": 9,
+        "name":"Вагонка берестова перший сорт, 2000х77х14мм ціна за погонний метер",
+        "price": 890,
+        "image": "image/vagonka/vagonka_berest.png"
+    },
+    {
+        "id": 10,
+        "name":"Вагонка кленова перший сорт, 2000х77х14мм ціна за погонний метер",
+        "price": 750,
+        "image": "image/vagonka/vagonka_klen.png"
+    },
+    {
+        "id": 11,
+        "name":"Вагонка соснова перший сорт, 2000х77х14мм ціна за погонний метер",
+        "price": 700,
+        "image": "image/vagonka/vagonka_sosna.png"
+    },
+    {
+        "id": 12,
+        "name":"Вагонка ясенова перший сорт, 2000х77х14мм ціна за погонний метер",
+        "price": 900,
+        "image": "image/vagonka/vagonka_yasen.png"
+    },
+    {
+        "id": 13,
+        "name":"Вагонка липова перший сорт, 2000х77х14мм ціна за погонний метер",
+        "price": 800,
+        "image": "image/vagonka/vagonka_lypa.png"
+    },
+    {
+        "id": 14,
+        "name":"Вагонка хмойна перший сорт, 2000х77х14мм ціна за погонний метер",
+        "price": 750,
+        "image": "image/vagonka/vagonka_hwoya.png"
+    },
+    {
+        "id": 15,
+        "name":"Вагонка дубова перший сорт, 2000х77х14мм ціна за погонний метер",
+        "price": 1000,
+        "image": "image/vagonka/vagonka_dyb.png"
+    },
+    {
+        "id": 16,
+        "name":"Вагонка березова перший сорт, 2000х77х14мм ціна за погонний метер",
+        "price": 780,
+        "image": "image/vagonka/vagonka_bereza.png"
+    },
+    {
+        "id": 17,
+        "name":"Будка для невеликих собак довжина 700мм ширина 600мм висота 600мм, ціна за штуку",
+        "price": 2200,
+        "image": "image/bydki/byda1.png"
+    },
+    {
+        "id": 18,
+        "name":"Будка для собак 1000x770x800 мм, ціна за штуку",
+        "price": 2700,
+        "image": "image/bydki/byda2.png"
+    },
+    {
+        "id": 19,
+        "name":"Будка для собак 1000x770x800 мм, ціна за штуку",
+        "price": 3300,
+        "image": "image/bydki/byda3.png"
+    },
+    {
+        "id": 20,
+        "name":"Будка для собак 1000x770x800 мм, ціна за штуку",
+        "price": 2500,
+        "image": "image/bydki/byda4.png"
+    },
+    {
+        "id": 21,
+        "name":"Дрова ясен, ціна за куб",
+        "price": 1900,
+        "image": "image/drova/drova_yasen.png"
+    },
+    {
+        "id": 22,
+        "name":"Дрова дуб, ціна за куб",
+        "price": 2000,
+        "image": "image/drova/drova_dyb.png"
+    },
+    {
+        "id": 23,
+        "name":"Дрова береза, ціна за куб",
+        "price": 1700,
+        "image": "image/drova/drova_bereza.png"
+    },
+    {
+        "id": 24,
+        "name":"Дрова бук, ціна за куб",
+        "price": 1600,
+        "image": "image/drova/drova_byk.png"
+    },
+    {
+        "id": 25,
+        "name":"Рейка Будівельна 30х40мм х 2 м, ціна за погонний метер",
+        "price": 35,
+        "image": "image/reyki/reyka_sosna2.png"
+    },
+    {
+        "id": 26,
+        "name":"Рейка Будівельна 50х50мм х 6м, ціна за погонний метер",
+        "price": 45,
+        "image": "image/reyki/reyka_sosna.png"
+    },
+    {
+        "id": 27,
+        "name":"Брус Сосна. Довжина: 4,5-6м, шир 50мм, тов 50мм, ціна за куб/м",
+        "price": 6000,
+        "image": "image/brysu/brus1.png"
+    },
+    {
+        "id": 28,
+        "name":"Брус Сосна. Довжина: 4,5-6м, шир 100мм, тов 50мм, ціна за куб/м",
+        "price": 6100,
+        "image": "image/brysu/brus2.png"
+    },
+    {
+        "id": 29,
+        "name":"Брус Сосна. Довжина: 4,5-6м, шир 150мм, тов 50мм, ціна за куб/м",
+        "price": 6200,
+        "image": "image/brysu/brus3.png"
+    },
+    {
+        "id": 30,
+        "name":"Брус Сосна. Довжина: 4,5-6м, шир 100мм, тов 75мм, ціна за куб/м",
+        "price": 6300,
+        "image": "image/brysu/brus4.png"
+    },
+    {
+        "id": 31,
+        "name":"Брус Сосна. Довжина: 4,5-6м, шир 100мм, тов 100мм, ціна за куб/м",
+        "price": 6400,
+        "image": "image/brysu/brus5.png"
+    },
+    {
+        "id": 32,
+        "name":"Брус Сосна. Довжина: 4,5-6м, шир 150мм, тов 100мм, ціна за куб/м",
+        "price": 6500,
+        "image": "image/brysu/brus6.png"
+    },
+    {
+        "id": 33,
+        "name":"Дошка обрізна. Дов: 4,5-6м, Шир: 100-200мм, Тов: 20мм, ціна за куб/м",
+        "price": 5600,
+        "image": "image/doshka/doshka1.png"
+    },
+    {
+        "id": 34,
+        "name":"Дошка обрізна. Дов: 4,5-6м, Шир: 100-200мм, Тов: 25мм, ціна за куб/м",
+        "price": 5700,
+        "image": "image/doshka/doshka2.png"
+    },
+    {
+        "id": 35,
+        "name":"Дошка обрізна. Дов: 4,5-6м, Шир: 100-200мм, Тов: 30мм, ціна за куб/м",
+        "price": 5800,
+        "image": "image/doshka/doshka3.png"
+    },
+    {
+        "id": 36,
+        "name":"Дошка обрізна. Дов: 4,5-6м, Шир: 100-200мм, Тов: 40мм, ціна за куб/м",
+        "price": 5900,
+        "image": "image/doshka/doshka4.png"
+    },
+    {
+        "id": 37,
+        "name":"Дошка обрізна. Дов: 4,5-6м, Шир: 100-200мм, Тов: 50мм, ціна за куб/м",
+        "price": 6000,
+        "image": "image/doshka/doshka5.png"
+    },
+    {
+        "id": 38,
+        "name":"Прямокутна альтанка 2х2м з металопрофілем",
+        "price": 45000,
+        "image": "image/gazebo/gazebo1.png"
+    },
+    {
+        "id": 39,
+        "name":"Прямокутна альтанка 3х3м з металопрофілем",
+        "price": 60000,
+        "image": "image/gazebo/gazebo2.png"
+    },
+    {
+        "id": 40,
+        "name":"Прямокутна альтанка 3х2м з металопрофілем",
+        "price": 40000,
+        "image": "image/gazebo/gazebo3.png"
+    }
+]
